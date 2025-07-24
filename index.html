@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DropSignal - Signal. Style. Substance.</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Discover trending physical and digital products curated for the modern lifestyle. From Amazon to ASOS, we signal the drops that matter." />
+    <meta name="keywords" content="trending products, affiliate marketing, Pinterest products, product curation, lifestyle products, Amazon finds, ASOS fashion, home office, tech gadgets, fitness gear" />
+    <meta name="author" content="DropSignal Team" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="DropSignal - Signal. Style. Substance." />
+    <meta property="og:description" content="Discover trending physical and digital products curated for the modern lifestyle. From Amazon to ASOS, we signal the drops that matter." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://dropsignal.com" />
+    <meta property="og:site_name" content="DropSignal" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@dropsignal" />
+    <meta name="twitter:title" content="DropSignal - Signal. Style. Substance." />
+    <meta name="twitter:description" content="Discover trending physical and digital products curated for the modern lifestyle." />
+    
+    <!-- Pinterest Meta Tags -->
+    <meta name="pinterest-rich-pin" content="true" />
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#1f2937" />
+    
+    <!-- Preconnect to external domains for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+    <link rel="preconnect" href="https://www.googletagmanager.com" />
+    
+    <!-- DNS Prefetch for affiliate partners -->
+    <link rel="dns-prefetch" href="//amazon.com" />
+    <link rel="dns-prefetch" href="//asos.com" />
+    <link rel="dns-prefetch" href="//target.com" />
+    <link rel="dns-prefetch" href="//pinterest.com" />
+    
+    <!-- Google Analytics (replace GA_MEASUREMENT_ID with actual ID) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag("js", new Date());
+      gtag("config", "GA_MEASUREMENT_ID", {
+        page_title: document.title,
+        page_location: window.location.href,
+        send_page_view: false
+      });
+    </script>
+    
+    <!-- Pinterest Analytics (replace PINTEREST_TAG_ID with actual ID) -->
+    <script>
+      !function(e){if(!window.pintrk){window.pintrk = function () {
+      window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
+        n=window.pintrk;n.queue=[],n.version="3.0";var
+        t=document.createElement("script");t.async=!0,t.src=e;var
+        r=document.getElementsByTagName("script")[0];
+        r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
+      pintrk("load", "PINTEREST_TAG_ID");
+      pintrk("page");
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+
